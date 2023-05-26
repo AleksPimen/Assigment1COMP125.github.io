@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>assignment1</title>
+  <link rel="stylesheet" href="assigment1.css" href="multiplication.ico">
+</head>
+
+<body>
+  <!-- Giving a title to the webpage's header and adding an image -->
+  <h1><img src="multiplication.png" alt="Logo" />Assigment 1 Multiplication table
+  
+  <!-- Creating label for the number of rows -->
+  <label for="rows">Number of Rows:</label>
+  
+  <!-- Creating input field so that a user would be able to type in their own values (by default the value set to 20) -->
+  <input type="number" id="rows" min="1" value="20">
+  
+  <!-- Creating label for the number of columns -->
+  <label for="columns">Number of Columns:</label>
+  
+  <!-- Creating input field so that a user would be able to type in their own values (by default the value set to 20) -->
+  <input type="number" id="columns" min="1" value="20">
+  
+  <!-- Creating a button that would use createTable function -->
+  <button onclick="createTable()">Generate Table</button></h1>
+  
+  <!-- Creating table -->
+  <table id="multiplication-table"></table>
+
+  <!-- Linking js to html -->
+  <script src="assignment1.js"></script>
+</body>
+
+<footer>
+  <!-- Adding the footer content -->
+  <p>&copy; Aleksandr Pimenov 301279844 COMP125 Summer 2023</p>
+</footer>
+
+</html>
